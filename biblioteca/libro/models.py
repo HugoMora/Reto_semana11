@@ -43,5 +43,5 @@ class AlquilerDetalle(models.Model):
 
 class LibroCategoria(models.Model):
     id = models.AutoField(primary_key=True)
-    id_libro = models.ForeignKey(Libro, on_delete=models.CASCADE)
-    id_categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
+    id_libro = models.ForeignKey('Libro', on_delete=models.CASCADE)
+    id_categoria = models.ForeignKey('Categoria', on_delete=models.CASCADE)

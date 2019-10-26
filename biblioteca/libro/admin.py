@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import Libro, Persona, Categoria, Alquiler, Tarifa, AlquilerDetalle, LibroCategoria
+from .models import (Libro, Persona, Categoria,
+                    Alquiler, Tarifa, AlquilerDetalle,
+                    LibroCategoria)
 
 # Register your models here.
 admin.site.register(Libro)
